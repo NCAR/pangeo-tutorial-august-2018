@@ -33,14 +33,17 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
 
 #### Install the necessary Jupyter Plugins
 
+*These steps can also take some time.  Just FYI.*
+
     $ jupyter labextension install jupyterlab_bokeh
+    $ jupyter labextension install @pyviz/jupyterlab_pyviz
 
 #### Run a quick test
 
     $ python
 
     >>> import xarray as xr
-    >>> xr.show_versions()  
+    >>> xr.show_versions()
     >>> xr.tutorial.load_dataset('air_temperature')
     >>> xr.tutorial.load_dataset('rasm')
 
@@ -51,20 +54,16 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
 
 ## Launching Jupyter and Dask on Cheyenne
 
-  1. Install dask-jobqueue
-
-         $ pip install git+https://github.com/dask/dask-jobqueue.git
-
   1. Launching jupyter lab requires a few extra steps (on Cheyenne)
 
-         $ export PBS_ACCOUNT=STDD0006
+         $ export PBS_ACCOUNT=[your project number]
          $ qinteractive -l walltime=4:00:00
          $ export LD_LIBRARY_PATH=
          $ source activate pangeo
          $ start-notebook
-         
+
   1. Run the ssh command returned by `start-notebook` on your local computer, and then open up `localhost:8888` in your browser
-  
+
   1. Once you start the `distributed` cluster, you can create another ssh tunnel to the Dashboard.
 
 ## Access to Pangeo on Google Cloud
