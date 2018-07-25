@@ -49,7 +49,7 @@ fi
 
 echo "Logging this session in $LOGFILE"
 
-jupyter notebook $@ --no-browser --ip=$JNHOST >& $LOGFILE &
+jupyter lab $@ --no-browser --ip=$JNHOST >& $LOGFILE &
 JNPID=$!
 
 echo -en  "\nStarting jupyter notebook server, please wait ... "
