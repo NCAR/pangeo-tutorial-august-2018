@@ -29,4 +29,4 @@ dependencies:
   - python-graphviz
   - holoviews
   - geoviews
-  - nodejs
+  - nodejs=9.11.1
