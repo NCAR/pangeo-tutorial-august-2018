@@ -21,6 +21,11 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
     $ bash miniconda.sh
     # follow instructions
 
+#### Download the Tutorial Repository & Enter the Repository Directory
+
+    $ git clone https://github.com/ncar/pangeo-tutorial-august-2018
+    $ cd pangeo-tutorial-august-2018
+    
 #### Install Pangeo Environment
 
 *This step can take some time.  If it fails, just run it again and it will pick up where it left off.*
@@ -46,7 +51,6 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
     >>> xr.show_versions()
     >>> xr.tutorial.load_dataset('air_temperature')
     >>> xr.tutorial.load_dataset('rasm')
-
 
 ## Launching Jupyter locally
 
