@@ -24,7 +24,7 @@ For detailed setup instructions, see [setup.md](./setup.md).
 ```
 git clone https://github.com/NCAR/pangeo-tutorial-august-2018.git
 cd pangeo-tutorial-august-2018
-conda env create -f environment.yml -n pangeo
+conda env create --file environment.yml
 source activate pangeo
 ```
 
