@@ -64,7 +64,7 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
          $ qinteractive -l walltime=4:00:00
          $ export LD_LIBRARY_PATH=
          $ source activate pangeo
-         $ start-jlab
+         $ ./start-jlab
 
   1. Run the ssh command returned by `start-jlab` on your local computer, and then open up `localhost:8888` in your browser
 
