@@ -48,6 +48,8 @@ At this point, you may need to make sure that `conda` is available in your path.
 
 #### Activate the Pangeo Environment
 
+This step, apparently, assumes that you're shell is `bash` or something like it.  If you are using `csh` or `tcsh`, you may need to run the following commands in a `bash` login (e.g., type `bash`, hit enter, and continue).
+
     $ source activate pangeo
 
 #### Install the necessary Jupyter Plugins
