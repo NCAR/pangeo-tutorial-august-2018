@@ -3,6 +3,18 @@ Getting Started with Pangeo
 
 This notebooks in this tutorial are designed to run on the Cheyenne High-Performance Computer, Pangeo's JupyterHub deployed on Google Compute Platform, or on a local computer (see Running Locally below). Most of the datasets used in the tutorial are small and are packaged with xarray. The larger sample datasets may only be available on GCP and/or Cheyenne.
 
+## Prerequisites
+
+There are some basic requirements before the rest of this setup can work for you.  These include:
+
+1. Have `git` installed on your system
+
+1. Have a Github account (accounts are free)
+
+1. Have a modern web browser (Chrome, Safari, etc.)
+
+1. Basic understanding of your machine's command-line interface (e.g., Mac OS's Terminal application)
+
 ## Setup Python for working on a personal computer or on Cheyenne
 
 #### Download Miniconda
