@@ -21,6 +21,8 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
     $ bash miniconda.sh
     # follow instructions
 
+At this point, you may need to make sure that `conda` is available in your path.  (Installing Miniconda should give you the option of putting a line at the end of your profile/login script to add `conda` to your path when you log in, again.  You may need to `source` your profile/login script or re-login or open a new terminal window to activate this change.)
+
 #### Download the Tutorial Repository & Enter the Repository Directory
 
     $ git clone https://github.com/ncar/pangeo-tutorial-august-2018
