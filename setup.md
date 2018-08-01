@@ -11,7 +11,7 @@ This notebooks in this tutorial are designed to run on the Cheyenne High-Perform
     $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 
     # for osx
-    $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh
+    $ curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh
 
     # for windows
     # go to: https://conda.io/miniconda.html
